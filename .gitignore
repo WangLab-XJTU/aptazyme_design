@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Model / data artifacts (regenerated, large)
+*.pt
+*.pkl
+
+# Runtime outputs (regenerated)
+cache/
+out/
+
+# Log files
+*.out
+
+# Paper visualization data (kept on disk, NOT versioned)
+paper/
+
+# Server run script (operational, not for the public repo)
+scripts/run_server.py
+
+# Editor
+.vscode/
+
+# Archived earlier iterations (removed from the public repo)
+legacy/
